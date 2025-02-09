@@ -6,7 +6,7 @@ This repository contains links to some dashboards I’ve created. You can access
 
 ## 📊 Dashboards Included  
 - **Tableau Dashboard** – [View here](https://public.tableau.com/app/profile/josueyanez/viz/Jobapplication-Josue/Dashboard1)  
-- **GitHub Dashboard** – [View here](https://josueyz.github.io/lerdo_pub/)
+- **QGIS 3D Map** – [View here](https://josueyz.github.io/lerdo_pub/)
 - **Looker Studio Dashboard** – [View here](https://lookerstudio.google.com/reporting/c09e7fd3-8f74-4e75-bbd8-703b527b881a) 
 
 ## 🔧 About This Project  
