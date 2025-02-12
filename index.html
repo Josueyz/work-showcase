@@ -16,6 +16,7 @@
             align-items: center;
             height: 100vh;
             text-align: center;
+            flex-direction: column;
         }
 
         h1 {
@@ -46,17 +47,39 @@
         a:hover {
             background-color: #0056b3;
         }
+
+        .more-info {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 18px;
+        }
+
+        .more-info a {
+            color: #007bff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .more-info a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div>
         <h1>Access Some Dashboards I've Created</h1>
         <ul>
- <li><a href="https://public.tableau.com/app/profile/josueyanez/viz/Jobapplication-Josue/Dashboard1" target="_blank">Tableau Dashboard</a></li>
-        <li><a href="https://josueyz.github.io/lerdo_pub/" target="_blank">3d map made with QGIS</a></li>
-        <li><a href="https://lookerstudio.google.com/reporting/c09e7fd3-8f74-4e75-bbd8-703b527b881a" target="_blank">Looker Studio Dashboard</a></li>
-        <li><a href="https://josueyz.shinyapps.io/codigos_r/" target="_blank">R Shiny App</a></li>
+            <li><a href="https://public.tableau.com/app/profile/josueyanez/viz/Jobapplication-Josue/Dashboard1" target="_blank">Tableau Dashboard</a></li>
+            <li><a href="https://josueyz.github.io/lerdo_pub/" target="_blank">3d map made with QGIS</a></li>
+            <li><a href="https://lookerstudio.google.com/reporting/c09e7fd3-8f74-4e75-bbd8-703b527b881a" target="_blank">Looker Studio Dashboard</a></li>
+            <li><a href="https://josueyz.shinyapps.io/codigos_r/" target="_blank">R Shiny App</a></li>
         </ul>
+        <div class="more-info">
+            <p>Learn more about these projects and explore the source code on my <a href="https://github.com/Josueyz/work-showcase" target="_blank">GitHub</a>.</p>
+        </div>
     </div>
 </body>
 </html>
